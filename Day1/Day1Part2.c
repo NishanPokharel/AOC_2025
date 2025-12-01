@@ -64,7 +64,7 @@ int main()
     int arrSize = sizeof(arr) / sizeof(arr[0]);
 
     // read form file line by line
-    FILE* file = fopen("./Day1/Day1Part1.txt", "r");
+    FILE* file = fopen("./Day1/Day1.txt", "r");
     if(file == NULL)
     {
         perror("Error opening file");
